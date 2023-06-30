@@ -60,6 +60,7 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
@@ -73,6 +74,12 @@ h2 {
     animation-fill-mode: forwards;
 }
 
+#cover-text,
+#cover-text h2 {
+    color: #fff;
+
+}
+
 /*Creation of Zoom Animation*/
 @keyframes hero-zoom {
     from {
@@ -82,4 +89,20 @@ h2 {
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+    padding: 2px 0 0 10px;
+    background: rgba(241, 109, 107, 0.7);
+
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
+
 }
