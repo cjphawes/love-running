@@ -38,7 +38,7 @@ h2 {
 
 #menu li {
     float: right;
-    list-style: none;
+    list-style-type: none;
     margin-right: 10px;
 }
 
@@ -219,7 +219,7 @@ footer {
 }
 
 .social-networks>li {
-    display: inline-block;
+    display: inline;
 }
 
 .social-networks i {
